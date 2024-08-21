@@ -1,6 +1,23 @@
-body
-{
-    color: #333;
-    text-align: left;
-    font-family: "Arial";
-}
+/* Estilos generales para el cuerpo de la página */
+body {
+    color: #333333; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 0; /* Sin margen alrededor del cuerpo */
+    padding: 0; /* Sin relleno alrededor del cuerpo */
+  }
+  
+  /* Estilos para el contenedor principal */
+  #container {
+    width: 70%; /* Ancho del contenedor en porcentaje del ancho de la página */
+    padding: 1em; /* Espacio interno alrededor del contenido del contenedor */
+    text-align: left; /* Alineación del texto a la izquierda dentro del contenedor */
+    border: 1px solid #dddddd; /* Borde del contenedor, color gris claro */
+    margin: 0 auto; /* Sin margen superior e inferior, centrado horizontalmente */
+  }
+  
+  /* Estilos específicos para los encabezados dentro del contenedor */
+  #container h1 {
+    font-size: 20px; /* Tamaño de la fuente para los encabezados h1 */
+  }
